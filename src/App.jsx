@@ -6,21 +6,22 @@ function App() {
   return (
     <div className="bg-gray-100">
       {/* Header Section */}
-      <header className="flex justify-between items-center py-16 px-24 bg-white">
-        <div className="w-2/5">
-          <h1 className="text-4xl font-bold">
-            Transparência. <br />
-            Inovação. <br />
-            <span className="text-blue-600">Inclusão.</span>
-          </h1>
-        </div>
-        <div className="w-3/5 flex space-x-2">
-          <div className="w-1/4 h-64 bg-blue-600 rounded-lg"></div>
-          <div className="w-1/4 h-64 bg-yellow-200 rounded-lg"></div>
-          <div className="w-1/4 h-64 bg-blue-600 rounded-lg"></div>
-          <div className="w-1/4 h-64 bg-yellow-200 rounded-lg"></div>
-        </div>
-      </header>
+      <header className="flex justify-between items-center h-screen w-full py-16 px-24 bg-white">
+      <div className="w-2/5">
+        <h1 className="text-4xl font-bold">
+          Transparência. <br />
+          Inovação. <br />
+          <span className="text-blue-600">Inclusão.</span>
+        </h1>
+      </div>
+      <div className="w-3/5 flex space-x-2">
+        <div className="w-1/4 h-64 bg-blue-600 rounded-lg"></div>
+        <div className="w-1/4 h-64 bg-yellow-200 rounded-lg"></div>
+        <div className="w-1/4 h-64 bg-blue-600 rounded-lg"></div>
+        <div className="w-1/4 h-64 bg-yellow-200 rounded-lg"></div>
+      </div>
+    </header>
+
 
       {/* Card Section */}
       <section className="py-16">
